@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { fetchImages } from "./services/unsplash-api.js";
-import SearchBar from "./Components/SearchBar/SearchBar";
-import ImageGallery from "./Components/ImageGallery/ImageGallery";
-import ImageModal from "./Components/ImageModal/ImageModal";
-import Loader from "./Components/Loader/Loader";
-import LoadMoreBtn from "./Components/LoadMoreBtn/LoadMoreBtn";
-import ErrorMessage from "./Components/ErrorMessage/ErrorMessage";
+import SearchBar from "./components/SearchBar/Searchbar.jsx";
+import ImageGallery from "./components/ImageGallery/ImageGallery.jsx";
+import ImageModal from "./components/ImageModal/ImageModal.jsx";
+import Loader from "./components/Loader/Loader.jsx";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn.jsx";
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage.jsx";
 
 function App() {
   const [images, setImages] = useState([]);
