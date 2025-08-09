@@ -81,9 +81,7 @@ function App() {
           />
         )}
 
-        {images.length === 0 && !loading && !error && (
-          <p>Sonuç bulunamadı.</p>
-        )}
+        {images.length === 0 && !loading && !error && <p>Sonuç bulunamadı.</p>}
 
         <ImageGallery images={images} onImageClick={handleImageClick} />
 
